@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('form').submit(function(event) {
-		var json;
+		let json;
 		event.preventDefault();
 		$.ajax({
 			type: $(this).attr('method'),
